@@ -34,6 +34,6 @@ jobs:
         run: |
           mkdir b
           cd b
-          sudo apt update && sudo apt install g++
+          sudo apt update && sudo apt build-dep boost
           cmake ..
           make -j1

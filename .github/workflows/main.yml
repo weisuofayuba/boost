@@ -35,5 +35,5 @@ jobs:
           mkdir b
           cd b
           sudo apt update && sudo apt build-dep boost
-          cmake ..
+          ../bootstrap.sh
           make -j1
